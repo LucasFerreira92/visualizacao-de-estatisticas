@@ -84,4 +84,51 @@ h2 {
 .numbers p {
     font-weight: 200;
 }
+ 
+@media screen and (max-width:1283px) and (min-width:400px) {
     
+    .conteudo {
+        flex-direction: column-reverse;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    h1 {
+        display: flex;
+        flex-direction:row;
+        text-align: center;
+        justify-content: center;
+        font-size: 17,5px;
+        margin-left: 15%;
+;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .principal-numbers {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .apresentacao {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    img {
+        display: block;
+        margin:0 auto;
+        height: auto;
+        max-width: 100%;
+    }
+}
