@@ -18,10 +18,8 @@ html {
 
 img {
     border-radius: 5px;
-    background-color: linear-gradient(#914DBA);
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 .apresentacao {
@@ -84,9 +82,11 @@ h2 {
 .numbers p {
     font-weight: 200;
 }
- 
-@media screen and (max-width:1283px) and (min-width:400px) {
-    
+
+
+
+@media screen and (max-width:1283px) and (min-width:420px) {
+
     .conteudo {
         flex-direction: column-reverse;
         font-size: 1rem;
@@ -95,12 +95,10 @@ h2 {
 
     h1 {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         text-align: center;
         justify-content: center;
-        font-size: 17,5px;
-        margin-left: 15%;
-;
+        font-size: 17, 5px;
     }
 
     h2 {
@@ -108,6 +106,8 @@ h2 {
         justify-content: center;
         text-align: center;
         flex-direction: column;
+        font-size: 1rem;
+        font-size: 10px;
     }
 
     .principal-numbers {
@@ -124,11 +124,9 @@ h2 {
         text-align: center;
     }
 
-
     img {
-        display: block;
-        margin:0 auto;
-        height: auto;
-        max-width: 100%;
+        height: 20%;
+        width: 20%;
+        margin-top: 30%;
     }
 }
